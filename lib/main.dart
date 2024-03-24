@@ -147,6 +147,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   String _intToHex(int num) {
     String hexString = num.toRadixString(16);
-    return hexString.padLeft(2,'0');
+    return hexString.padLeft(4,'0');
   }
 }
